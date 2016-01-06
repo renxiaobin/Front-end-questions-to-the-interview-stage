@@ -1,13 +1,8 @@
->开了交流群啦，欢迎加入交流心得
->
->http://jq.qq.com/?_wv=1027&k=iRLQRp
->
->QQ群365780609
 
 ##说说你对闭包的理解
 ##Talk about your understanding of closures
 
-使用闭包主要是为了设计私有的方法和变量。闭包的优点是可以避免全局变量的污染，缺点是闭包会常驻内存，会增大内存使用量，使用不当很容易造成内存泄露。
+使用闭包主要是为了设计私有的方法和变量。闭包的优点是可以避免全局变量的污染，缺点是闭包会常驻内存，会增大内存使用量，使用不当很容易造成内存泄露。在js中闭包可以理解成是一个定义在函数内部的函数，它能够访问局部变量；
 
 Using closures designed primarily to private methods and variables. Closure advantage of global variables are avoided contamination, the disadvantage is the closure will be permanent memory, the memory usage increases, improper use is likely to cause a memory leak.
 
